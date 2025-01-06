@@ -1,31 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>CssPositions</title>
-    </head>
-    <body style="
-    height: 3000px;">
-        <div style="
+
+<head>
+    <title>CssPositions</title>
+</head>
+
+<body style="
+    height: 3000px;
+    padding-top: 30px;
+    padding-left: 45px;
+    ">
+    <div style="
             background-color: black;
             color: white;
             position: fixed;
-            height: 0;
-            width: 0;
-            "> 
-            Header
-        </div>
+            top:0;
+            left: 8px;
+            right: 30px;
+            height: 30px;
+            ">
+        Header
+    </div>
 
-        <div style="
+
+    <div style="
+    background-color: red;
+    color: blue;
+    position: fixed;
+    top:30px;
+    left: 0px;
+    bottom: 0px;
+    width:50px;
+    ">
+sidebar
+<div style="
+background-color: rgb(89, 0, 255);
+color: white;
+position: absolute;
+top:10px;
+left: 10px;
+
+">
+    absolute
+</div>
+</div>
+
+
+    <div style="
             background-color: aqua;
             height: 200px;
             width: 200px;
             position: static;
             ">div 1</div>
-        <div style="
+    <div style="
         background-color: lightcoral;
         height: 200px;
         width: 200px;
         ">div 2</div>
 
-    </body>
+</body>
+
 </html>

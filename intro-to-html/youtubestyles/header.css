@@ -1,11 +1,17 @@
 .header {
-    margin-top: 30px;
+    margin-top: 3px;
     height: 40px;
-    border-width: 1px;
-    border-style: solid;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top:0;
+    left: 8px;
+    right: 30px;
+    height: 30px;
+    background-color: white;
+    border-bottom-color: grey;
+    z-index: 100;
 }
 
 .left-section{
@@ -87,4 +93,22 @@
 .curr-user-icon{
     height: 32px;  
     border-radius: 16px;
+}
+
+.notification-bell{
+  display: relative;
+}
+
+.notification-count{
+ display: absolute;
+ top:0;
+ right:0;
+ background-color: red;
+ color: white;
+ padding-left: -6px;
+ padding-right: -6px;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ border-radius: 9px;
+ font-family: Roboto,Arial;
 }
